@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: stepDefs.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.402 sec <<< FAILURE!
+Register patient with valid data(Register Patient)  Time elapsed: 2.786 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at stepDefs.PatientRegistrationStepDefs.user_navigates_to(PatientRegistrationStepDefs.java:30)
+	at ?.user navigates to "https://gentle-mountain-53237.herokuapp.com/"(file:///D:/TestProject1/src/test/resources/featureFiles/PatientRegistration.feature:8)
+

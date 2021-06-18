@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="stepDefs.TestRunner" time="2.786" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\TestProject1"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\TestProject1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kalra\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\kalra\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf12452984186994407760.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-14.0.1\bin;C:\Users\kalra\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;C:\WINDOWS\system32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kalra"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="kalra"/>
+    <property name="java.class.path" value="C:\Users\kalra\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\TestProject1\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Register Patient" name="Register patient with valid data" time="2.786">
+    <error message="TODO: implement me" type="io.cucumber.java.PendingException">io.cucumber.java.PendingException: TODO: implement me
+	at stepDefs.PatientRegistrationStepDefs.user_navigates_to(PatientRegistrationStepDefs.java:30)
+	at ✽.user navigates to &quot;https://gentle-mountain-53237.herokuapp.com/&quot;(file:///D:/TestProject1/src/test/resources/featureFiles/PatientRegistration.feature:8)
+</error>
+    <system-out>
+@register_1
+Scenario: Register patient with valid data                               &amp;#27;[90m# src/test/resources/featureFiles/PatientRegistration.feature:11&amp;#27;[0m
+  &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33muser navigates to &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m&quot;https://gentle-mountain-53237.herokuapp.com/&quot;&amp;#27;[0m &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_navigates_to(java.lang.String)&amp;#27;[0m
+      &amp;#27;[33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefs.PatientRegistrationStepDefs.user_navigates_to(PatientRegistrationStepDefs.java:30)
+	at âœ½.user navigates to &quot;https://gentle-mountain-53237.herokuapp.com/&quot;(file:///D:/TestProject1/src/test/resources/featureFiles/PatientRegistration.feature:8)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36muser enters First Name as &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;Ashish&apos;&amp;#27;[0m                                &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_enters_first_name_as(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters Last name as &apos;Goel&apos;&amp;#27;[0m                                    &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters Email as &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;abc@gmail.com&apos;&amp;#27;[0m                               &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_enters_email_as(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser enters Phone as &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;0757412563&apos;&amp;#27;[0m                                  &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_enters_phone_as(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser enters Password as &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;Password123&apos;&amp;#27;[0m                              &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_enters_password_as(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser Confirms Password as  &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&apos;Password123&apos;&amp;#27;[0m                           &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_confirms_password_as(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mUser clicks Register button&amp;#27;[0m                                        &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_clicks_register_button()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36muser is directed to his/her dashboard&amp;#27;[0m                             &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_is_directed_to_his_her_dashboard()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36muser can see his/her name on dashboard&amp;#27;[0m                             &amp;#27;[90m# stepDefs.PatientRegistrationStepDefs.user_can_see_his_her_name_on_dashboard()&amp;#27;[0m
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 32863
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 07, 2021 10:02:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>
